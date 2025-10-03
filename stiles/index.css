@@ -1,0 +1,26 @@
+button{
+    background-color: white;
+    height: 20vh;
+    min-height: 15pt;
+    width: 20vw;
+    min-width: 15pt;
+}
+
+button:hover{
+    background-color: rgb(212, 255, 169);
+}
+
+header{
+    height: 30vh;
+    min-height: 72pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 30vh;
+    min-height: 72pt;
+    display:flex;
+    justify-content: space-around;
+}
