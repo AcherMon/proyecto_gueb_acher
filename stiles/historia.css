@@ -1,0 +1,35 @@
+button{
+    background-color: white;
+    height: 10vh;
+    min-height: 10pt;
+    width: 15vw;
+    min-width: 15pt;
+}
+
+button:hover{
+    background-color: rgb(212, 255, 169);
+}
+
+header{
+    height: 15vh;
+    min-height: 72pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 66vh;
+    min-height: 72pt;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#koke{
+    height: 10vh;
+}
+
+h1{
+    font-size: 46pt
+}
