@@ -11,7 +11,7 @@ button:hover{
 }
 
 header{
-    height: 30vh;
+    height: 15vh;
     min-height: 72pt;
     display: flex;
     justify-content: center;
@@ -19,8 +19,17 @@ header{
 }
 
 main{
-    height: 30vh;
+    height: 66vh;
     min-height: 72pt;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#koke{
+    height: 10vh;
+}
+
+h1{
+    font-size: 46pt
 }
