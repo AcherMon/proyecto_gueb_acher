@@ -19,7 +19,7 @@ header{
 }
 
 main{
-    height: 150vh;
+    height: 160vh;
     min-height: 72pt;
     display:flex;
     align-items: flex-start;
@@ -37,4 +37,14 @@ h1{
 #flechas{
     height: 10vh;
     width: 15vh;
+}
+
+#mapa{
+    height: 25vh;
+    width: 35vh;
+}
+
+#grafica{
+    height: 25vh;
+    width: 35vh;
 }

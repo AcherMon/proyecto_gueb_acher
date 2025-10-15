@@ -19,7 +19,7 @@ header{
 }
 
 main{
-    height: 65vh;
+    height: 160vh;
     min-height: 72pt;
     display:flex;
     align-items: flex-start;
@@ -32,4 +32,9 @@ main{
 
 h1{
     font-size: 46pt
+}
+
+iframe{
+    height: 40vh;
+    width: 40vh;
 }
