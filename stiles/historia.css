@@ -19,7 +19,7 @@ header{
 }
 
 main{
-    height: 100vh;
+    height: 150vh;
     min-height: 72pt;
     display:flex;
     align-items: flex-start;
@@ -33,6 +33,8 @@ main{
 h1{
     font-size: 46pt
 }
-p{
-    
+
+#flechas{
+    height: 10vh;
+    width: 15vh;
 }
