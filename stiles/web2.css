@@ -19,7 +19,7 @@ header{
 }
 
 main{
-    height: 160vh;
+    height: 175vh;
     min-height: 72pt;
     display:flex;
     align-items: flex-start;
