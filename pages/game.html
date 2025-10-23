@@ -7,9 +7,16 @@
     <link rel="shortcut icon" href="../media/Lemur.png" type="image/x-icon">
     <link rel="stylesheet" href="../stiles/game.css">
 </head>
-<body>
-    <h2>El Epico Juego</h2>
 
+<header>
+  <h1>EL JUEGO
+
+    
+  </h1>
+</header>
+
+<body>
+  <div class="recuadro">
     <br>
   <label for="web">¿Cual fue el primer navegador web?</label><br>
   <select name="web" id="web">
@@ -19,13 +26,24 @@
     <option value="LT">Internet Explorer</option>
   </select>
 
-  <label> ¿Que Tecnologia se usa como maquillaje de la web? </label><br>
-    <input type="checkbox" name="curso"> 
+  <div>
+    <label> ¿Que Tecnologia se usa como maquillaje de la web? </label><br>
+  </div>
+  <input type="checkbox" name="curso"> 
+  <div class="curso">
+    <label>Azerbaijan Technology</label>
+    <img src="../media/AzTecno.png" id="az" alt="Logo de Azerbaiyan Technologies">
+    <input type="checkbox" name="curso">
     <div>
-        <label>Primero de Bachillerato</label>
-        <img src="../media/AzTecno.webp" id="az" alt="Logo de Azerbaiyan Technologies">
+      <label>Python</label>
+      <img src="../media/piton.png" id="piton" alt="Logo de Python">
     </div>
-    <input type="checkbox" name="curso"> <label>Segundo de Bachillerato</label>
+    <input type="checkbox" name="curso">
+    <div>
+      <label>CSS</label>
+      <img src="../media/css.png" id="css" alt="Logo de CSS">
+    </div>
+  </div>
 
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
