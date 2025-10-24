@@ -4,25 +4,19 @@
 
 #az{
     height: 10vh;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;    
+    width: 10vw;  
     gap: 8px;       
 }
 
 #piton{
     height: 10vh;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;    
+    width: auto;    
     gap: 8px;       
 }
 
 #css{
     height: 10vh;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;    
+    width: auto;   
     gap: 8px;       
 }
 
@@ -34,27 +28,38 @@ header{
 
 body{
     background: linear-gradient(to bottom, #000000, #070145, #0a0169, #0c017d);
-    height: 150vh;
+    height: 175vh;
     color: white;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h1{
     font-size: 46pt
 }
 
-br{
-    height: 5vh;
-}
-
-.recuadro {
+#recuadro{
     background-color: #0b017d54;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    border-radius: 15px;
-    text-align: center;
+    border: 2px rgba(255, 255, 255, 0.3);
     display: flex;
+    text-align: center;
     flex-direction: column; 
     justify-content: center;
     justify-items: center;
-    width: 75vh;
+    justify-self: center;
+    width: 75vw;
+}
+
+#tech{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }

@@ -8,16 +8,15 @@
     <link rel="stylesheet" href="../stiles/game.css">
 </head>
 
-<header>
-  <h1>EL JUEGO
 
-    
-  </h1>
-</header>
 
 <body>
-  <div class="recuadro">
+  <header>
+    <h1>EL JUEGO</h1>
+  </header>
+  <main id="recuadro">
     <br>
+    <form action="action.php">
   <label for="web">¿Cual fue el primer navegador web?</label><br>
   <select name="web" id="web">
     <option value="NN">Netscape Navigator</option>
@@ -29,22 +28,26 @@
   <div>
     <label> ¿Que Tecnologia se usa como maquillaje de la web? </label><br>
   </div>
-  <input type="checkbox" name="curso"> 
-  <div class="curso">
-    <label>Azerbaijan Technology</label>
-    <img src="../media/AzTecno.png" id="az" alt="Logo de Azerbaiyan Technologies">
+  <input type="checkbox" name="curso">
+  <div id="tech">
+    <div class="imagenes">
+      <label>Azerbaijan Technology</label>
+      <img src="../media/AzTecno.png" id="az" alt="Logo de Azerbaiyan Technologies">
+    </div>
     <input type="checkbox" name="curso">
-    <div>
+    <div class="imagenes">
       <label>Python</label>
       <img src="../media/piton.png" id="piton" alt="Logo de Python">
     </div>
     <input type="checkbox" name="curso">
-    <div>
+    <div class="imagenes">
       <label>CSS</label>
       <img src="../media/css.png" id="css" alt="Logo de CSS">
     </div>
   </div>
-
+  <input type="submit" value="Check">
+</form>
+<!--
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="John"><br>
@@ -52,8 +55,7 @@
   <input type="text" id="lname" name="lname" value="Chungus"><br><br>
   <label for="lname">Direccion:</label><br>
   <input type="text" id="dir" name="dir" value=""><br><br>
-  <input type="reset" value="Reset">
-</form> 
+</form>
 
 
   
@@ -74,7 +76,8 @@
   
 <label for="email">Enter your email:</label>
 <input type="email" id="email" name="email">
-
+-->
+</main>
 <footer>
     <p>Hecho por Acher Montuenga:</p>
     <p><img src="../media/koke-ficha.png" id="koke" alt="Foto del creador"></p>
