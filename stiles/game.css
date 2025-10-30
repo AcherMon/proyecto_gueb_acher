@@ -4,27 +4,30 @@
 
 #az{
     height: 10vh;
-    width: 10vw;  
+    width: 10vh;  
     gap: 8px;       
 }
 
 #piton{
     height: 10vh;
-    width: auto;    
+    width: 10vh;    
     gap: 8px;       
 }
 
 #css{
-    height: 10vh;
-    width: auto;   
+    height: 12vh;
+    width: 10vh;   
     gap: 8px;       
 }
 
 header{
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 body{
     background: linear-gradient(to bottom, #000000, #070145, #0a0169, #0c017d);
@@ -32,7 +35,6 @@ body{
     color: white;
     margin: 0;
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -49,7 +51,8 @@ h1{
     justify-content: center;
     justify-items: center;
     justify-self: center;
-    width: 75vw;
+    margin-left: 20vh;
+    margin-right: 20vh;
 }
 
 #tech{
@@ -62,4 +65,8 @@ h1{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+br{
+    height: 5vh;
 }
