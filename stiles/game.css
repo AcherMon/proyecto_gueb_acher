@@ -31,7 +31,7 @@ header{
 
 body{
     background: linear-gradient(to bottom, #000000, #070145, #0a0169, #0c017d);
-    height: 175vh;
+    height: 200vh;
     color: white;
     margin: 0;
     display: flex;
@@ -69,4 +69,22 @@ h1{
 
 br{
     height: 5vh;
+}
+
+#js{
+    height: 10vh;
+    width: 10vh;  
+    gap: 8px; 
+}
+
+#yc{
+    height: 15vh;
+    width: 10vh;  
+    gap: 8px;
+}
+
+#html{
+    height: 10vh;
+    width: 10vh;  
+    gap: 8px;
 }
