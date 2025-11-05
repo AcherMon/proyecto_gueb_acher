@@ -6,6 +6,7 @@
     <title>EL EPICO JUEGO</title>
     <link rel="shortcut icon" href="../media/Lemur.png" type="image/x-icon">
     <link rel="stylesheet" href="../stiles/game.css">
+    <script src="../code/game.js"></script>
 </head>
 
 
@@ -15,13 +16,13 @@
     <h1>EL JUEGO</h1>
   </header>
   <main id="recuadro">
-    <form action="action.php">
+  <form onsubmit="check()">
     <br>
       <label for="web">¿Cual fue el primer navegador web?</label><br>
       <select name="web" id="web">
         <option value="NN">Netscape Navigator</option>
         <option value="KT">Mozilla Firefox</option>
-        <option value="BT">Mosaic</option>
+        <option value="MO">Mosaic</option>
         <option value="LT">Internet Explorer</option>
       </select>
     <br>
@@ -64,16 +65,16 @@
       <option value="HS">Hacerte un Sandwich</option>
       <option value="PP">Pasapalabra</option>
     </select>
-  <br>
-
-  <br>
-    <label for="birthday">¿Cuando salio Modzilla Firefox? (Pista: Fue un dia antes de mi cumple, el año lo he dicho antes)</label>
     <br>
-      <input type="date" id="9N" name="9N">
-    <br>
-  <br>
 
-  <br>
+    <br>
+      <label for="birthday">¿Cuando salio Modzilla Firefox? (Pista: Fue un dia antes de mi cumple, el año lo he dicho antes)</label>
+      <br>
+        <input type="date" id="N9N" name="9N">
+      <br>
+    <br>
+
+    <br>
     <div>
       <label> ¿Que Tecnologia se han usado para crear esta web? </label><br>
     </div>
@@ -92,9 +93,10 @@
           <div>
             <img src="../media/html.png" id="html" alt="Logo de HTML">
           </div>
+        <div>
       </div>
 
-      <input type="checkbox" name="creacion">
+      <input type="checkbox" name="Carrasco">
       <div id="creacion">
         <div class="imagenes">
           <label>Yannick Carrasco Ultimate Screams Fc26</label>
@@ -113,42 +115,17 @@
       </div>
     <br>
 
-  <br>
-  <label for="points">¿En que año (aproximadamente) surgio ARPANET?</label>
-  <br>
-    1960<input type="range" id="points" name="points" min="1960" max="1970">1970
-  <br>
-  <br>
+    <br>
+    <label for="points">¿En que año (aproximadamente) surgio ARPANET?</label>
+    <br>
+      1960<input type="range" id="points" name="points" min="1960" max="1970">1970
+    <br>
+    <br>
 
+    <input type="submit" value="Check">
 
-  <input type="submit" value="Check">
-</form>
-<!--
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Chungus"><br><br>
-  <label for="lname">Direccion:</label><br>
-  <input type="text" id="dir" name="dir" value=""><br><br>
-</form>
+  </form>
 
-
-  
-
-
-
-
- 
-<br><label for="points">¿Cuanto te gusta la informatica? (del-44 al 1892)</label>
--44<input type="range" id="points" name="points" min="-44" max="1892">1892 <br>
-
-<label for="pwd">Password:</label>
-<input type="password" id="pwd" name="pwd">
-  
-<label for="email">Enter your email:</label>
-<input type="email" id="email" name="email">
--->
 </main>
 <footer>
     <p>Hecho por Acher Montuenga:</p>
