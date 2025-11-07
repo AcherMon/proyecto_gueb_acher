@@ -14,7 +14,7 @@
     gap: 8px;       
 }
 
-#css{
+#cssphoto{
     height: 12vh;
     width: 10vh;   
     gap: 8px;       
@@ -31,7 +31,7 @@ header{
 
 body{
     background: linear-gradient(to bottom, #000000, #070145, #0a0169, #0c017d);
-    height: 200vh;
+    height: auto;
     color: white;
     margin: 0;
     display: flex;
@@ -87,4 +87,14 @@ br{
     height: 10vh;
     width: 10vh;  
     gap: 8px;
+}
+
+#answer1{
+    height: 10vh;
+    width: 10vh;
+}
+
+#primera{
+    display: flex;
+    justify-content: space-evenly;
 }
