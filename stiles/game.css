@@ -101,4 +101,67 @@ br{
 
 #answer1{
     visibility: hidden;
+    height: 10vh;
+    width: 10vh;
+}
+
+
+#answer3{
+    visibility: hidden;
+    height: 10vh;
+    width: 10vh;
+}
+
+#I3{
+    min-width: 10vh;
+    min-height: 10vh;
+}
+
+#I1{
+    min-width: 10vh;
+    min-height: 10vh;
+}
+
+#answer2{
+    visibility: hidden;
+    height: 10vh;
+    width: 10vh;
+}
+
+#I2{
+    min-width: 10vh;
+    min-height: 10vh;
+}
+
+#answer4{
+    visibility: hidden;
+    height: 10vh;
+    width: 10vh;
+}
+
+#I4{
+    min-width: 10vh;
+    min-height: 10vh;
+}
+
+#answer5{
+    visibility: hidden;
+    height: 10vh;
+    width: 10vh;
+}
+
+#I5{
+    min-width: 10vh;
+    min-height: 10vh;
+}
+
+#answer6{
+    visibility: hidden;
+    height: 10vh;
+    width: 10vh;
+}
+
+#I6{
+    min-width: 10vh;
+    min-height: 10vh;
 }
