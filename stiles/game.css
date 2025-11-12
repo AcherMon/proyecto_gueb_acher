@@ -98,3 +98,7 @@ br{
     display: flex;
     justify-content: space-evenly;
 }
+
+#answer1{
+    visibility: hidden;
+}

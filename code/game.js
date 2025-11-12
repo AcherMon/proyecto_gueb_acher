@@ -1,10 +1,13 @@
 function check(event){
     if (event) event.preventDefault();
+    R1=document.getElementById("web").value
+    A1=document.getElementById("answer1")
 
-    if(document.getElementById("primera").value == "MO"){
-        document.getElementById("I1").innerHTML += '<img src="../media/bien.png" alt="Respuesta correcta">';
+    if(R1=="MO"){
+        A1.src="../media/bien.png"
     }
     else{
-        document.getElementById("I1").innerHTML += '<img src="../media/mal.png" alt="Respuesta incorrecta">';
+        A1.src="../media/css.png"
     }
+    A1.style.visibility="visible"
 }
