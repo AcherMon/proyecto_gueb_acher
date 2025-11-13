@@ -64,3 +64,12 @@ iframe{
     height: 10vh;
     width: 20vh;
 }
+
+body{
+    background: linear-gradient(to bottom, #000000, #070145, #0a0169, #0c017d);
+    height: auto;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
