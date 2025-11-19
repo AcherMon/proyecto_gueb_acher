@@ -1,5 +1,7 @@
-function check(event){
-    if (event) event.preventDefault();
+function check(){
+
+    event.preventDefault();
+    
     R1=document.getElementById("web").value;
     A1=document.getElementById("answer1");
 
