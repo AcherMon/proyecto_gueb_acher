@@ -80,7 +80,7 @@ h1 {
 
 body {
     background: linear-gradient(to bottom, #000000, #070145, #0a0169, #0c017d);
-    height: auto;
+    height: 200vh;
     color: white;
     margin: 0;
     display: flex;
